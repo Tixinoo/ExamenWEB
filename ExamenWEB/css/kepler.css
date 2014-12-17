@@ -1,3 +1,4 @@
+/* Style de tout le contenu de la page */
 body {
     background-color: midnightblue;
     font-family: Candara, Calibri;
@@ -6,6 +7,7 @@ body {
     padding: 10px;
 }
 
+/* Style de la div dont l'id est "header"*/
 div#header {
     background-color: black;
     color: white;
@@ -14,18 +16,52 @@ div#header {
     height: 50px;
 }
 
-div#content {
-
-}
-
-img {
+/* Style des images de la div dont l'id est "header" */
+div#header img {
     /* l'image doit s'adapter à la taille de la div
        dans laquelle elle est contenue              */
     max-width:100%;
     max-height:100%;
 }
 
+/* Style de la div dont l'id est "content"*/
+div#content {}
+
 /* Style des titres de niveau 1 */
 h1 {
     color: lightblue;
+}
+
+/* Style des liens contenus dans une liste à puce */
+ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* Style des liens contenus dans une liste à puce lorsqu'ils sont survolés'*/
+ul li a:hover {
+    color: yellow;
+}
+
+/* Style de la boite contenant l'image correspondante à l'offre */
+div#imageOffre {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+/* Style de l'image contenue dans la boite contenant l'image correspondante à l'offre */
+div#imageOffre img {
+    width: 300px;
+}
+
+/* Style des éléments de classe 'block' */
+.block {
+    display: block;
+}
+
+/* Style des éléments de classe 'label' */
+.label{
+    display: inline-block;
+    width: 150px;
 }
