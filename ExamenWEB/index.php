@@ -15,6 +15,8 @@
     <h1>Examen WEB</h1>
     <p>Examen WEB</p>
     
+    <input type="button" onclick="testJS('toto')" value="testJS"></input>
+    
     <script type="text/javascript" src="js/script.js"></script>
     
   </body>
